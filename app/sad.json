@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "467835062960",
+    "project_id": "hackathon-74a0d"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467835062960:android:b8a6ed75f9669516",
+        "android_client_info": {
+          "package_name": "com.fellas.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467835062960-i3r741l2t80hrsb4cqa1jhbb0b933tb3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "467835062960-7kr34gredagoj81bth6ntg6dppa9385m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fellas.hackathon",
+            "certificate_hash": "422dc440528c583113778242b4786c0d33c250a9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO83dCLXmX86vdlmQXcQH2QwU18dIadxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467835062960:android:44829f5033cb46f0",
+        "android_client_info": {
+          "package_name": "com.example.gurcuff.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467835062960-vi9vp50me6pfjhc488vflc1k5gmum8oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gurcuff.hackathon",
+            "certificate_hash": "422dc440528c583113778242b4786c0d33c250a9"
+          }
+        },
+        {
+          "client_id": "467835062960-i3r741l2t80hrsb4cqa1jhbb0b933tb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO83dCLXmX86vdlmQXcQH2QwU18dIadxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

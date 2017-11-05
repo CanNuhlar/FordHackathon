@@ -1,0 +1,101 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*" android:shrinkColumns="*" android:background="#0084b4">
+    <!-- İki sütunlu birinci satır  -->
+    <TableRow
+        android:id="@+id/satir1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp">
+        <TextView
+            android:id="@+id/vehicleSpeed" android:textSize="18dp"
+            android:layout_weight="1" android:background="#222831"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/engine_speed" android:textSize="18dp"
+            android:layout_weight="1" android:background="#222831"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/gear" android:textSize="18dp"
+            android:layout_weight="1" android:background="#222831"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+
+    </TableRow>
+
+    <!-- Row 2 with 3 columns -->
+    <TableRow
+        android:id="@+id/satir2"
+        android:layout_height="match_parent"
+        android:layout_width="0dp">
+        <TextView
+            android:id="@+id/wheelAngle" android:textSize="18dp"
+            android:layout_weight="1" android:background="#597FCA"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/lat" android:textSize="18dp"
+            android:layout_weight="1" android:background="#597FCA"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/lon" android:textSize="18dp"
+            android:layout_weight="1" android:background="#597FCA"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+    </TableRow>
+
+    <!-- tek sütunlu satir -->
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="0dp">
+        <TextView
+            android:id="@+id/accPedalPos" android:textSize="18dp"
+            android:layout_weight="1" android:background="#393E46"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/fuelLevel" android:textSize="18dp"
+            android:layout_weight="1" android:background="#393E46"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/fuelConsumed" android:textSize="18dp"
+            android:layout_weight="1" android:background="#393E46"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+    android:layout_width="0dp">
+        <TextView
+            android:id="@+id/odometer" android:textSize="18dp"
+            android:layout_weight="1" android:background="#0092CA"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/ignitionStatus" android:textSize="18dp"
+            android:layout_weight="1" android:background="#0092CA"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/brakePedalStatus" android:textSize="18dp"
+            android:layout_weight="1" android:background="#0092CA"
+            android:textColor="#ffffff" android:layout_height="match_parent"
+            android:padding="15dip" android:gravity="center"/>
+
+    </TableRow>
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</TableLayout>

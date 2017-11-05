@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Live View" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/fuel_pump"
+            android:title="Fuel Consumption" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_friendslist"
+            android:title="Driver Analysis" />
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/ic_menu_account_list"
+            android:title="Car Analysis" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_close_clear_cancel"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
